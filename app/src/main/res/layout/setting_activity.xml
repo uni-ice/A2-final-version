@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#2595e4">
+
+    <ImageView
+      android:id="@+id/Setting_Img"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:paddingLeft="15dp"
+      android:paddingRight="15dp"
+      android:src="@mipmap/rg_return" />
+
+    <TextView
+      android:id="@+id/Setting_TV"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_centerInParent="true"
+      android:gravity="center"
+      android:text="@string/setting"
+      android:textColor="#fff"
+      android:textSize="20sp" />
+  </RelativeLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:orientation="horizontal"
+      android:padding="10dp">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/back_ground"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+      <Spinner
+        android:id="@+id/Setting_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="10dp">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/vibration"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+      <Spinner
+        android:id="@+id/Setting_v"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="10dp">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/language"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+      <Spinner
+        android:id="@+id/Setting_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+  </LinearLayout>
+
+
+  <TextView
+    android:id="@+id/Setting_Default"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="100dp"
+    android:layout_marginRight="100dp"
+    android:background="@drawable/main_btn"
+    android:gravity="center"
+    android:text="@string/reset"
+    android:textColor="#fff"
+    android:textSize="15sp" />
+
+  <TextView
+    android:id="@+id/Setting_Music"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="100dp"
+    android:background="@drawable/main_btn"
+    android:gravity="center"
+    android:text="@string/music_library"
+    android:textColor="#fff"
+    android:textSize="15sp" />
+
+  <TextView
+    android:id="@+id/Setting_goMain"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="100dp"
+    android:background="@drawable/main_btn"
+    android:gravity="center"
+    android:text="@string/back_main"
+    android:textColor="#fff"
+    android:textSize="15sp" />
+
+</LinearLayout>

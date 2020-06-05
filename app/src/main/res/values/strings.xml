@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">fruit link</string>
+
+  <string name="register">Register</string>
+  <string name="start">Start</string>
+  <string name="setting">Settings</string>
+  <string name="about_us">About us</string>
+  <string name="about_game">About game</string>
+  <string name="exit">Exit</string>
+  <string name="back">back</string>
+
+  <string name="back_ground">BGM</string>
+  <string name="off">OFF</string>
+  <string name="on">ON</string>
+  <string name="vibration">Vibration</string>
+  <string name="language">Language</string>
+  <string name="music_library">Music Library</string>
+  <string name="reset">Reset</string>
+  <string name="back_main">Back to Main Page</string>
+
+  <string name="about_game_text_start">How to start</string>
+  <string name="about_game_text_function">How to operate</string>
+  <string name="about_game_text_text_one">After loading the game, click ‘Start’ to the select level page to enter the game</string>
+  <string name="about_game_text_text_two">
+Finger operation, connect two pictures with the same pattern with maximal three straight lines together to eliminate
+Game goal
+Complete the goal of the game by eliminating all the patterns in a limited time
+There are ten levels in total. You must complete one level then you are able to unlock the next level.</string>
+  <string name="level">Level</string>
+  <string name="restart">Restart</string>
+  <string name="pause">Pause</string>
+  <string name="resume">Resume</string>
+  <string name="switch_music">Switch the BGM</string>
+  <string name="back_level">Back to Level Select</string>
+  <string name="add_music">Add Music</string>
+  <string name="about_us_text">This is a free game for everyone to entertain.
+Compared with other large-scale mobile games, this game is simple to understand, easy to operate, and does not require a lot of time and vigor.
+Hoping all players can have a pleasant experience in this mini game of LianLianKan (Link Game)</string>
+
+  <string name="success_one">Congratulation! You just use</string>
+  <string name="success_two">s to pass the level</string>
+  <string name="next_level">Next Level</string>
+  <string name="failure">Sorry you did not pass the level</string>
+  <string name="empty_input">Username or password cannot be empty</string>
+  <string name="pass_error">Wrong password</string>
+  <string name="login_success">Login Successfully</string>
+  <string name="empty_info">Information cannot be empty</string>
+  <string name="pass_not">Two passwords are inconsistent</string>
+  <string name="register_success">Registration success</string>
+  <string name="num">Account</string>
+  <string name="num_hint">Please enter an account</string>
+  <string name="pass">Password</string>
+  <string name="pass_hint">Please enter a password</string>
+  <string name="again_pass">Confirm Password</string>
+  <string name="again_pass_hint">Please re-enter the password entered above</string>
+  <string name="remember_pass">Remember Password</string>
+  <string name="go_register">Sign up</string>
+  <string name="login">Log in</string>
+  <string name="ban_play">You can not play this level now</string>
+</resources>
