@@ -1,0 +1,67 @@
+changelog -- update at least pre week
+2020/5/4 -- 2020/5/8
+  start to design the project, thinking about what project I would like to develop.
+  Get design about the fruit link mini game, design interfaces and functionality.
+2020/5/11 -- 2020/5/15
+  start to translate the design interfaces into Android studio
+    *5/11
+    create the main page(the guide page).
+      Create button: start game, setting, about game, about us. All buttons can jump to the right new screen, the function works right.
+    create the setting screen interface.
+      Create drop-down box: select BGM, select vibration, select language Create button: reset, music library, back to main page.
+    *5/13
+    create the choose difficulty level screen interface.
+      Create a recyclerview to present the difficulty level in vertical, each level button can jump to the the screen.
+    *5/14
+    create two 'about' interfaces.
+      Create completed 'about us' and 'about game' interfaces.
+      The two screen are created in one activity (AboutActivity), as the two interfaces are simple and just need text view.
+    create exit button.
+      Create exit button. By using the button can quit the application.
+    *5/15
+    create play-game interface.
+      create the main structure of the play-game interfaces. GameView Java file are created to support the interface. The time counting functionality can works well.
+    *5/16
+      Continue creating the play game interface.
+        Working on play-game interface functionality implement. A set of game can be created by get random numbers to allocate the patterns.
+        Restart button can be used to restart both time and get the new game.
+2020/5/18 -- 2020/5/22
+  Continue translating interfaces into Android Studio and focus on functionality implement
+    *5/18
+    Finish the GameView Java file.
+      Now the play game interface is complete and run well in the application. Still need working for the functionality. (still can not play the game)
+    *5/19
+    Create GameActivity.
+      Create two events with pop-ups.
+      When pass the level, can use the hint to next level and back to the select level page.
+      When do not pass the level, can use the hint to replay this level or back to the select level page.
+    *5/22-5/24
+    Continue working on the GameActivity.
+      Finish the game activity Java file coding. All functionality about the game playing is completed. Now can play the game.
+2020/5/25 -- 2020/5/29
+  Continue on functionality implement.
+    *5/25-5/26
+    BGM adding.
+      Add some BGM in the application, using to play in play game activity.
+      Create the function which can add local music (music on the phone) into the application music library.
+    *5/27-5/28
+    Vibration adding.
+      Add the vibration functionality.
+    *5/29
+    Language setting.
+      This application would support two languages.(English and Chinese) The string need to have two version to switch in different language.
+    *5/30
+    Select level functionality implement.
+      Write the method to divide locked levels and unlocked levels. Get the condition about when a level can be unlocked.
+2020/6/1 -- 2020/6/5
+  Login and sign up screen and functionality implement, complete application debugging.
+    *6/1-6/2
+    Login and sign up screen and functionality implement.
+      Using the Sqlite database for sign up and login. Only after login can get into the main screen.
+    *6/3
+    Full application running and debugging.
+      To see whether the whole application runs well and all functionality are implemented.
+    *6/4-6/5
+    Add and change notes, re-typesetting codes in Java file.
+      To make sure the codes is highly readable.
+      Also record demo.
