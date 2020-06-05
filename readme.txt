@@ -8,3 +8,6 @@ Project overview:
   The fruit link mini game is simple to understand and easy to operate, it is suitable for people of all ages and interesting in playing.
 Github link:
   https://github.com/uni-ice/A2-fruit-link
+  I also create a new Github link about the final version of this project. In this repo, the codes are clearer and the demo recording is based on this project.
+  final version link:
+  https://github.com/uni-ice/A2-final-version
